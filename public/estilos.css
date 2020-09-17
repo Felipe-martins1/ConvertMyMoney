@@ -1,0 +1,55 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    text-align: center;
+}
+
+div.logo img{
+    width: 150px;
+    height: 150px;
+}
+
+div.logo h1{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 8px;
+
+    background-color:#FDFDFD;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    background-color: #74e602;
+    border-radius: 8px;
+    outline: none;
+    border-style: none;
+
+    width: 170px;
+    height: 45px;
+    
+    font-size: 20px;
+
+    margin: 5px;
+
+}
+
+.result{
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    background: #FDFDFD;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.icons{
+    font-family: 'Ubuntu',sans-serif;
+}
+
