@@ -3,6 +3,7 @@ html{
 }
 body{
     text-align: center;
+    background-color: #FDFDFD;
 }
 
 div.logo img{
@@ -16,6 +17,9 @@ div.logo h1{
     margin: 0;
     margin-bottom: 30px;
 }
+.logo span{
+    color: #61be03 ;
+}
 
 input{
     border: 1px solid black;
@@ -25,6 +29,7 @@ input{
     font-size: 20px;
     padding: 10px;
     margin: 5px;
+    outline: none;
 }
 
 button{
@@ -40,16 +45,41 @@ button{
 
     margin: 5px;
 
+    transition: 400ms;
+
 }
 
 .result{
-    padding: 10px;
+    padding: 50px;
     border: 1px solid #d8d8d8;
     background: #FDFDFD;
     font-family: 'Ubuntu',sans-serif;
+    font-size: 25px;
+}
+
+.result span{
+    color:  #61be03;
 }
 
 .icons{
+    font-size: 15px;
     font-family: 'Ubuntu',sans-serif;
+}
+.status{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.status span{
+    font-size: 30px;
+    color: #61be03 ;
+}
+
+.status img{
+    width: 25px;
+    height: 25px;
+}
+
+button:hover{
+    background-color:  #61be03;
 }
 

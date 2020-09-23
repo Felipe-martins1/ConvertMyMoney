@@ -10,8 +10,10 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', async (req, res) => {
     const cotacao = await apiBCB.getCotacao()
+    const todayBR = convert.toTodayBR()
     res.render('home', {
-        cotacao
+        cotacao,
+        todayBR
     })
 })
 
