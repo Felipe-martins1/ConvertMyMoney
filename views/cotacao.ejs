@@ -1,11 +1,15 @@
 <%- include('header') %>
-<div class="Result">
-    <% if(error){ %>
-    <%= error %>
-    <% }else { %>
-    <span><%= quantidade %>$</span>
-    na cotação
-    <span><%= cotacao %></span> é igual a: <span><%= conversao %>R$</span>
-    <% } %>
+<div class="alert alert-success" role="alert">
+
+    <div class="result">
+        <% if(error){ %>
+        <%= error %>
+        <% }else { %>
+        <span><%= quantidade %>$</span>
+        na cotação
+        <span><%= cotacao %></span> é igual a: <span><%= conversao %>R$</span>
+        <% } %>
+    </div>
+
 </div>
 <%- include('footer') %>

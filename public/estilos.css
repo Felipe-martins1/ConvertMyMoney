@@ -1,17 +1,15 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
-body{
+.logo{
     text-align: center;
-    background-color: #FDFDFD;
 }
 
-div.logo img{
+.logo img{
     width: 150px;
     height: 150px;
 }
-
-div.logo h1{
+.logo h1{
     font-family: 'Ubuntu',sans-serif;
     font-size: 50px;
     margin: 0;
@@ -21,51 +19,10 @@ div.logo h1{
     color: #61be03 ;
 }
 
-input{
-    border: 1px solid black;
-    border-radius: 8px;
 
-    background-color:#FDFDFD;
-    font-size: 20px;
-    padding: 10px;
-    margin: 5px;
-    outline: none;
-}
 
-button{
-    background-color: #74e602;
-    border-radius: 8px;
-    outline: none;
-    border-style: none;
-
-    width: 170px;
-    height: 45px;
-    
-    font-size: 20px;
-
-    margin: 5px;
-
-    transition: 400ms;
-
-}
-
-.result{
-    padding: 50px;
-    border: 1px solid #d8d8d8;
-    background: #FDFDFD;
-    font-family: 'Ubuntu',sans-serif;
-    font-size: 25px;
-}
-
-.result span{
-    color:  #61be03;
-}
-
-.icons{
-    font-size: 15px;
-    font-family: 'Ubuntu',sans-serif;
-}
 .status{
+    text-align: center;
     font-family: 'Ubuntu',sans-serif;
 }
 
@@ -75,11 +32,26 @@ button{
 }
 
 .status img{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
 }
 
-button:hover{
-    background-color:  #61be03;
+.form-group{
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 30px;
+}
+
+.result span{
+    color: #61be03;
 }
 
