@@ -1,0 +1,31 @@
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 175px;
+    height: 175px;
+}
+.logo h1{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 75px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.logo span{
+    color: #61be03 ;
+}
+
+
+@media (min-width: 900px){
+    .logo img{
+        width: 150px;
+        height: 150px;
+    }
+    .logo h1{
+        font-size: 50px;
+    }
+}
+
+
+

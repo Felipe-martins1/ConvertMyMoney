@@ -1,0 +1,46 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.status{
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.status span{
+    font-size: 30px;
+    color: #61be03 ;
+}
+
+.status img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+form{
+    width: 50%;
+    text-align: center;
+}
+.form-group{
+    height: 80px;
+}
+
+
+@media (min-width: 900px){
+    .form-group{
+        height: 60px;
+    }
+    form{
+        width: 20%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+

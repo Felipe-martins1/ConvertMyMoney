@@ -3,14 +3,19 @@
     <img src="/calendar.png" alt="calendário">
     <span><%= todayBr %></span>
 </div>
-<div class="form-group d-flex justify-content-center p-2">
-    <form method=" GET" action="/cotacao">
-        <input class="form-control  w-auto p-4" name="cotacao" type="number" placeholder="Cotação Dolar"
-            value="<%=cotacao%>"><br />
-        <input class="form-control  w-auto p-4" required name="quantidade" type="number" id="quantidade"
-            placeholder="Quantidade de Dolares"><br />
-        <button type="submit" class="btn btn-success btn-lg">Converter</button>
+<div class="d-flex justify-content-center">
+    <form method="GET" action="/cotacao">
+        <div class="form-group m-0 mb-2">
+            <input class="form-control h-100" name="cotacao" type="number" placeholder="Cotação Dolar"
+                value="<%=cotacao%>">
+        </div>
+        <div class="form-group m-0 mb-4">
+            <input class="form-control h-100 " required name="quantidade" type="number" id="quantidade"
+                placeholder="Quantidade de Dolares">
+        </div>
+        <button type="submit" class="btn btn-success w-75 h-25 font-weight-bold">Converter</button>
     </form>
+</div>
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <%- include('footer') %>

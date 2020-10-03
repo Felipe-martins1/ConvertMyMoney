@@ -1,0 +1,14 @@
+.result{
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 30px;
+}
+
+.result span{
+    color: #61be03;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
