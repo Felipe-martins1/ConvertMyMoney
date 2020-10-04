@@ -25,6 +25,10 @@ form{
 .form-group{
     height: 100px;
 }
+.alert{
+    text-align: center;
+}
+
 
 @media (min-width: 850px){
     form{
