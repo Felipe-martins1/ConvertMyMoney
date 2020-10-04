@@ -8,34 +8,41 @@ html{
 }
 
 .status span{
-    font-size: 30px;
+    font-size: 60px;
     color: #61be03 ;
 }
 
 .status img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
 }
 
 form{
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 .form-group{
-    height: 80px;
+    height: 100px;
 }
 
-
-@media (min-width: 900px){
-    .form-group{
-        height: 60px;
-    }
+@media (min-width: 850px){
     form{
-        width: 20%;
-        text-align: center;
+        width: 25%;
+    }
+    .form-group{
+        height: 80px;
+    }
+    .status img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    .status span{
+        font-size: 40px;
     }
 }
+
 
 
 

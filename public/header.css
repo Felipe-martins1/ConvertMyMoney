@@ -3,12 +3,12 @@
 }
 
 .logo img{
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
 }
 .logo h1{
     font-family: 'Ubuntu',sans-serif;
-    font-size: 75px;
+    font-size: 80px;
     margin: 0;
     margin-bottom: 30px;
 }
@@ -16,16 +16,23 @@
     color: #61be03 ;
 }
 
+.logo{
+    margin-top: 500px;
+}
 
-@media (min-width: 900px){
+@media (min-width: 850px){
     .logo img{
         width: 150px;
         height: 150px;
     }
     .logo h1{
-        font-size: 50px;
+        font-size: 75px;
+    }
+    .logo{
+        margin-top: 0;
     }
 }
+
 
 
 
