@@ -16,10 +16,6 @@
     color: #61be03 ;
 }
 
-.logo{
-    margin-top: 500px;
-}
-
 @media (min-width: 850px){
     .logo img{
         width: 150px;
@@ -27,9 +23,6 @@
     }
     .logo h1{
         font-size: 75px;
-    }
-    .logo{
-        margin-top: 0;
     }
 }
 
